@@ -588,6 +588,10 @@ footer{
     .newsletter-btn{
         margin-left: 7.5rem;
     }
+    .discover-our-story,
+    .discover-our-vision{
+        height: 100%;
+    }
 }
 /* animations */
 @keyframes fadeUp{
