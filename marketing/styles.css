@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Cabin|Herr+Von+Muellerhoff|Source+Sans+Pro:400,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald|Cabin|Herr+Von+Muellerhoff|Source+Sans+Pro:400,900&display=swap');
 /*Global styles*/
 *,
 *::before,
@@ -10,12 +10,16 @@
 
 :root{
     --main-font: 'Source Sans Pro', sans-serif;
-    --secondary-font: 'Herr Von Muellerhoff', cursive;
+    --secondary-font: 'Oswald', cursive;
     --body-font: 'Cabin', sans-serif;
     --main-font-color-dark: #252525;
     --secondary-font-color: #c59d5f;
     --body-font-color: #515151;
     --darkMode: #272727;
+    --bggradient: linear-gradient(to right, #58247a, #1bcedf);
+    --violetParade: linear-gradient(to right, #f02fc2, #6094ea);
+    --berriesParade: linear-gradient(to right, #7117ea, #ea6060);
+    --cloudCover: linear-gradient(to left, #13f1fc, #0470dc);
 }
 
 html{
@@ -156,7 +160,7 @@ header{
 .hero{
     width: 100%;
     height: 100vh;
-    background: url('images/offering2.jpg') center no-repeat;
+    background: url('images/seo1.jpg') center no-repeat;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -346,7 +350,7 @@ header{
 
 /* our prayer service  */
 .our-services{
-    background: url("images/giving2.png") center no-repeat;
+    background: url("images/lead5.jpg") center no-repeat;
     background-size: cover;
 }
 
@@ -370,7 +374,7 @@ header{
 
 /* the perfect ministry  */
 .perfect-service{
-    background: url('../img/love3.jpg') center no-repeat;
+    background: url('images/leader5.jpg') center no-repeat;
     background-size: cover;
 }
 
@@ -538,8 +542,8 @@ footer{
         flex: 1;
     }
     .service-info .time-line img{
-        width: 15rem;
-        height: 15rem;
+        width: 30rem;
+        height: 30rem;
     }
     .padding-right{
         padding-right: 7rem;
@@ -552,10 +556,7 @@ footer{
         padding-bottom: 3rem;
     }
     .time-line .global-headline{
-        padding: 0 35rem;
-    }
-    .snail-mail{
-        padding-top: 9rem;
+        padding: 0 45rem;
     }
     .center-image{
         padding-top: 4rem;
@@ -587,27 +588,9 @@ footer{
     .newsletter-btn{
         margin-left: 7.5rem;
     }
-    /* payment methods */
-    .move-online{
-        padding-top: 3rem;
-    }
-    .move-sms{
-        padding-top: 3.5rem;
-    }
-    .move-snail{
-        padding-top: 9.25rem;
-    }
-    .move-autopay{
-        padding-top: 3.5rem;
-    }
-    .move-other{
-        padding-top: 7.5rem;
-    }
-    .push-it-up{
-        margin-top: -10rem;
-    }
-    .push-right{
-        margin-right: -3.5rem;
+    .discover-our-story,
+    .discover-our-vision{
+        height: 100%;
     }
 }
 /* animations */
@@ -685,8 +668,7 @@ footer{
 }
 
 .service-info .time-line img{
-    height: 15rem;
-    width: 15rem;
+    height: 30rem;
 }
 
 .service-info .time-line h1{
@@ -702,3 +684,5 @@ footer{
     color: white;
     font-size: 1.5rem;
 }
+
+/* test here  */
