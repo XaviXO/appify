@@ -19,7 +19,11 @@
     --bggradient: linear-gradient(to right, #58247a, #1bcedf);
     --violetParade: linear-gradient(to right, #f02fc2, #6094ea);
     --berriesParade: linear-gradient(to right, #7117ea, #ea6060);
-    --cloudCover: linear-gradient(to left, #13f1fc, #0470dc);
+    --cloudCover: linear-gradient(to top, #13f1fc, #0470dc);
+}
+.cloud-color{
+    background: var(--cloudCover);
+    color: white;
 }
 
 html{
