@@ -16,10 +16,19 @@
     --secondary-font-color: #c59d5f;
     --body-font-color: #515151;
     --darkMode: #272727;
-    --bggradient: linear-gradient(to right, #58247a, #1bcedf);
-    --violetParade: linear-gradient(to right, #f02fc2, #6094ea);
-    --berriesParade: linear-gradient(to right, #7117ea, #ea6060);
+    --bggradient: linear-gradient(to top, #58247a, #1bcedf);
+    --violetParade: linear-gradient(to  top left, #f02fc2, #6094ea);
+    --berriesParade: linear-gradient(to bottom right, #7117ea, #ea6060);
     --cloudCover: linear-gradient(to left, #13f1fc, #0470dc);
+}
+
+.color-cover{
+    background: var(--violetParade);
+    color: white;
+}
+.color-cover2{
+    background: var(--berriesParade);
+    color: white;
 }
 
 html{

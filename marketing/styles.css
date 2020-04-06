@@ -21,6 +21,14 @@
     --berriesParade: linear-gradient(to right, #7117ea, #ea6060);
     --cloudCover: linear-gradient(to left, #13f1fc, #0470dc);
 }
+.color-cover{
+    background: var(--violetParade);
+    color: white;
+}
+.color-cover2{
+    background: var(--berriesParade);
+    color: white;
+}
 
 html{
     font-family: var(--body-font);
