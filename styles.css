@@ -13,13 +13,17 @@
     --secondary-font: 'Oswald', cursive;
     --body-font: 'Cabin', sans-serif;
     --main-font-color-dark: #252525;
-    --secondary-font-color: #c59d5f;
+    --secondary-font-color: #b95edd;
     --body-font-color: #515151;
     --darkMode: #272727;
     --bggradient: linear-gradient(to right, #58247a, #1bcedf);
-    --violetParade: linear-gradient(to right, #f02fc2, #6094ea);
+    --violetParade: linear-gradient(to top, #f02fc2, #6094ea);
     --berriesParade: linear-gradient(to right, #7117ea, #ea6060);
     --cloudCover: linear-gradient(to left, #13f1fc, #0470dc);
+    --revCover: linear-gradient(to bottom, #13f1fc, #0470dc);
+}
+.para-color{
+    color: white;
 }
 
 html{
@@ -297,7 +301,7 @@ header{
 }
 
 .global-headline .asterisk{
-    color: var(--body-font-color);
+    color: var(--secondary-font-color);
     margin: 2.4rem 0;
 }
 
@@ -389,7 +393,7 @@ header{
 
 /* hours of operation */
 .digital-sevice{
-    background: var(--violetParade);
+    background: var(--revCover);
 }
 .time-line h2{
     font-size: 4rem;
