@@ -13,7 +13,7 @@
     --secondary-font: 'Oswald', cursive;
     --body-font: 'Cabin', sans-serif;
     --main-font-color-dark: #252525;
-    --secondary-font-color: #c59d5f;
+    --secondary-font-color: #C993FB;
     --body-font-color: #515151;
     --darkMode: #272727;
     --bggradient: linear-gradient(to right, #58247a, #1bcedf);
@@ -299,7 +299,7 @@ header{
 }
 
 .global-headline .asterisk{
-    color: var(--body-font-color);
+    color: var(--secondary-font-color);
     margin: 2.4rem 0;
 }
 
