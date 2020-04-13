@@ -62,52 +62,54 @@
     <section class="contact-form">
         <div class="newContainer">
             <h2 class="headline headline-dark animate-top">Contact Us</h2>
-            <div class="contact-row100 animate-right">
-                <div class="contact-col">
-                    <div class="contact-inputBox">
-                        <input type="text" name="" required="required">
-                        <span class="contact-text">First Name</span>
-                        <span class="contact-line"></span>
+            <form id="myForm" onsubmit="return validation()" action="mailto:jjaxxjc@appifyy.com" method="post" enctype="text/plain">
+                <div class="contact-row100 animate-right">
+                    <div class="contact-col">
+                        <div class="contact-inputBox">
+                            <input type="text" name="firstName" required="required" id="first">
+                            <span class="contact-text">First Name</span>
+                            <span class="contact-line"></span>
+                        </div>
+                    </div>
+                    <div class="contact-col">
+                        <div class="contact-inputBox">
+                            <input type="text" name="lastName" required="required" id="last">
+                            <span class="contact-text">Last Name</span>
+                            <span class="contact-line"></span>
+                        </div>
                     </div>
                 </div>
-                <div class="contact-col">
-                    <div class="contact-inputBox">
-                        <input type="text" name="" required="required">
-                        <span class="contact-text">Last Name</span>
-                        <span class="contact-line"></span>
+                <div class="contact-row100 animate-right">
+                    <div class="contact-col">
+                        <div class="contact-inputBox">
+                            <input type="text" name="phone" required="required" id="phone">
+                            <span class="contact-text">Phone Number</span>
+                            <span class="contact-line"></span>
+                        </div>
+                    </div>
+                    <div class="contact-col">
+                        <div class="contact-inputBox">
+                            <input type="text" name="email" required="required" id="email">
+                            <span class="contact-text">e-Mail</span>
+                            <span class="contact-line"></span>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="contact-row100 animate-right">
-                <div class="contact-col">
-                    <div class="contact-inputBox">
-                        <input type="text" name="" required="required">
-                        <span class="contact-text">Phone Number</span>
-                        <span class="contact-line"></span>
+                <div class="contact-row100 animate-left">
+                    <div class="contact-col">
+                        <div class="contact-inputBox textarea" style="height: 15rem;">
+                            <textarea required="required" name="message" style="resize: none;" id="message"></textarea>
+                            <span class="contact-text" style="margin-top: -5px;">Type your message here...</span>
+                            <span class="contact-line"></span>
+                        </div>
                     </div>
                 </div>
-                <div class="contact-col">
-                    <div class="contact-inputBox">
-                        <input type="text" name="" required="required">
-                        <span class="contact-text">e-Mail</span>
-                        <span class="contact-line"></span>
+                <div class="contact-row100 animate-left">
+                    <div class="contact-col btn">
+                        <input type="submit" value="Send">
                     </div>
                 </div>
-            </div>
-            <div class="contact-row100 animate-left">
-                <div class="contact-col">
-                    <div class="contact-inputBox textarea" style="height: 15rem;">
-                        <textarea required="required" style="resize: none;"></textarea>
-                        <span class="contact-text" style="margin-top: -5px;">Type your message here...</span>
-                        <span class="contact-line"></span>
-                    </div>
-                </div>
-            </div>
-            <div class="contact-row100 animate-left">
-                <div class="contact-col">
-                    <input type="submit" value="Send">
-                </div>
-            </div>
+            </form>
         </div>
     </section>
 
